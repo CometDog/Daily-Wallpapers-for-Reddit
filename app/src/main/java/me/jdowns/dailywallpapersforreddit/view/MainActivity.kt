@@ -1,8 +1,10 @@
-package me.jdowns.dailywallpapersforreddit
+package me.jdowns.dailywallpapersforreddit.view
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.view.MenuItem
+import me.jdowns.dailywallpapersforreddit.R
+import me.jdowns.dailywallpapersforreddit.navigator.MainNavigator
 
 class MainActivity : AppCompatActivity() {
     private lateinit var navigator: MainNavigator

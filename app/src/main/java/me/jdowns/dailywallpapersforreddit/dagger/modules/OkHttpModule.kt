@@ -1,4 +1,4 @@
-package me.jdowns.dailywallpapersforreddit
+package me.jdowns.dailywallpapersforreddit.dagger.modules
 
 import dagger.Module
 import dagger.Provides

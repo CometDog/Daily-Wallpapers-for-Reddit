@@ -1,4 +1,9 @@
-package me.jdowns.dailywallpapersforreddit
+package me.jdowns.dailywallpapersforreddit.navigator
+
+import me.jdowns.dailywallpapersforreddit.R
+import me.jdowns.dailywallpapersforreddit.view.MainActivity
+import me.jdowns.dailywallpapersforreddit.view.SettingsFragment
+import me.jdowns.dailywallpapersforreddit.view.SubredditFragment
 
 class MainNavigator(private val view: MainActivity) {
     fun showMainFragment() {

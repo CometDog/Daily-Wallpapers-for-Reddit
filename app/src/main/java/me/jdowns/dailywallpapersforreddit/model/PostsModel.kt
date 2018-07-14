@@ -1,4 +1,4 @@
-package me.jdowns.dailywallpapersforreddit
+package me.jdowns.dailywallpapersforreddit.model
 
 import com.squareup.moshi.Json
 

@@ -1,4 +1,4 @@
-package me.jdowns.dailywallpapersforreddit
+package me.jdowns.dailywallpapersforreddit.dagger.modules
 
 import android.app.Application
 import android.content.Context

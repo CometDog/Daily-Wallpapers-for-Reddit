@@ -1,4 +1,4 @@
-package me.jdowns.dailywallpapersforreddit
+package me.jdowns.dailywallpapersforreddit.view
 
 import android.app.AlertDialog
 import android.os.Bundle
@@ -8,6 +8,8 @@ import android.view.*
 import android.widget.Button
 import android.widget.EditText
 import kotlinx.coroutines.experimental.launch
+import me.jdowns.dailywallpapersforreddit.R
+import me.jdowns.dailywallpapersforreddit.presenter.SubredditPresenter
 
 @UiThread
 class SubredditFragment : Fragment() {

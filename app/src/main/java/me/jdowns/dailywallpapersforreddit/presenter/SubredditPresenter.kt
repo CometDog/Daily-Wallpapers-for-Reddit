@@ -1,4 +1,4 @@
-package me.jdowns.dailywallpapersforreddit
+package me.jdowns.dailywallpapersforreddit.presenter
 
 import android.app.WallpaperManager
 import android.content.Context
@@ -6,6 +6,9 @@ import android.support.annotation.WorkerThread
 import com.squareup.moshi.Moshi
 import kotlinx.coroutines.experimental.android.UI
 import kotlinx.coroutines.experimental.launch
+import me.jdowns.dailywallpapersforreddit.DailyWallpapers
+import me.jdowns.dailywallpapersforreddit.model.PostsModel
+import me.jdowns.dailywallpapersforreddit.view.SubredditFragment
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import okhttp3.Response
