@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/general">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="prefAllowNsfw"
+            android:icon="@drawable/ic_outline_block_24dp"
+            android:title="@string/allow_nsfw_title"
+            android:summary="@string/allow_nsfw_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/reddit">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="prefWiFiOnly"
+            android:icon="@drawable/ic_outline_network_wifi_24dp"
+            android:title="@string/wifi_only_title"
+            android:summary="@string/wifi_only_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

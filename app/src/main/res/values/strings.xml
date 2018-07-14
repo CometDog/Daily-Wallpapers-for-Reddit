@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Daily Wallpapers for Reddit</string>
+    <string name="set">Set</string>
+    <string name="subreddit">Subreddit</string>
+    <string name="allow_nsfw_title">Allow NSFW</string>
+    <string name="allow_nsfw_summary">Allow NSFW images as wallpapers when applicable</string>
+    <string name="wifi_only_title">Wi-Fi Only</string>
+    <string name="wifi_only_summary">Allow wallpapers to be set on Wi-Fi only</string>
+    <string name="general">General</string>
+    <string name="reddit">Reddit</string>
+    <string name="settings">Settings</string>
+    <string name="error">Error</string>
+    <string name="post_retrieval_error">Failed to retrieve an image in the first 26 posts</string>
+</resources>
